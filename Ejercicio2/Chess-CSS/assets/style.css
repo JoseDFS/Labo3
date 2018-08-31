@@ -2,6 +2,7 @@ tr td{
     width: 40px;
     height: 40px;
     
+    
 }
 tr:nth-child(even) td:nth-child(even){
     background-color:black;
@@ -9,8 +10,16 @@ tr:nth-child(even) td:nth-child(even){
 tr:nth-child(odd) td:nth-child(odd){
     background-color:black;
 }
+tr:nth-child(even) td:nth-child(even):hover{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+tr:nth-child(odd) td:nth-child(odd):hover{
+    background-color: rgba(255, 0, 0, 0.5);
+}
 
-
+td:hover{
+    background-color: rgba(255, 0, 0, 0.5);
+}
 
 h1{
     color: blue;

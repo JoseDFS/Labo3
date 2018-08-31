@@ -118,7 +118,7 @@ label{
     14.1 Vista en linea.
     14.2 Margen derecho e izquierdo de 15%.*/
 .section-footer{
-    display: inline;
+    display: inline-block;
     margin-left: 15%;
     margin-right: 15%;
 }
@@ -162,7 +162,6 @@ fieldset{
     color: white;
     font-weight: bold;
     border-radius: 4px;
-    size: 60%;
     size: 1rem;
     padding-left: 10px;
     padding-right: 10px;
